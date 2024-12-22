@@ -1,0 +1,105 @@
+.header{
+    text-align: center;
+    width:100%;
+    color:white;
+    background-color: rgba(197, 34, 129, 0.993);
+    height:60px;
+    /* display:flex;
+    align-items: center;
+    gap:50px; */
+}
+h1{
+    width:100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -20%;
+    font-weight: bolder;
+}
+.name-head{
+    display:inline-flex;
+    flex-direction: row;
+    width:100%;
+    display:flex; 
+    text-align: center;  
+}
+.pf_logo{
+    margin-left: 40%;
+    margin-top: 5px;
+    margin-right: -20%;
+   
+}
+/* img{
+    margin-top:5px;
+    margin-left:-10px;
+    margin-right:30px; */
+
+a{
+    text-decoration: none;
+    color:black;
+    margin-left: 25px;
+}
+
+
+.header2{
+    width:100%;
+    text-align: center;
+    background-color: lightpink;
+    height:25px;
+}
+
+.newli li{
+    
+    text-align:center;
+    margin-bottom: 0;
+}
+button{
+    background-color: lightcoral;
+    color:black;
+    border:1px solid white;
+    text-align:center;
+    border-radius: 3px;
+}
+
+
+body{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+}
+.top{
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+.container{
+    display:flex;
+    align-items: center;
+    gap:50px;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.arrow{
+    height:150px;
+    cursor:pointer;
+}
+.left{
+    transform: rotate(180deg);
+}
+.frame{
+    width:800px;
+    height:500px;
+    overflow:hidden;
+    /* box-shadow: -1px 1px 0px rgba(0,0,0,0.5); */
+
+}
+.slider{
+    display:flex;
+    /* transition:all 1s ease; */
+}
+.image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
